@@ -12,13 +12,11 @@ public class Mage extends Character {
         System.out.println(name +" wields their " + weapon + " and attacks the monster using spells!");
         mana--;
     }
-
     @Override
     public void dodge() {
         System.out.println(name + " uses their magic powers to create a defensive barrier!");
         mana--;
     }
-
     @Override
     public void usePotion() {
         HP += 10;
@@ -28,4 +26,5 @@ public class Mage extends Character {
     private void useManaPotion(){
         mana += 20;
     }
+
 }
